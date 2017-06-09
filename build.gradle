@@ -12,10 +12,10 @@ buildscript {
     }
 }
 
-
-
 apply plugin: 'kotlin'
 apply plugin: 'application'
+
+mainClassName = "com.headlessideas.realworld.AppKt"
 
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
