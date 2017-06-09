@@ -11,7 +11,10 @@
 *.launch
 .settings/
 
-
-#System Files
-.DS_Store
-Thumbs.db
+# gradle
+build/
+gradle/
+gradlew
+gradlew.bat
+.gradle/
+out/
